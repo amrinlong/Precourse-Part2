@@ -1,18 +1,38 @@
 body {
   background-color: darkslategray;
+  font-family: sans-serif;
+  
 }
 
 nav {
   background-color: rgb(91, 60, 136);
+  border: 1px solid green;
+  width: 100%;
+ 
+  display: flex;
+  justify-content: center;
+}
+
+.nav-bar {
+  display: flex;
+  justify-content: flex-start;
+  width: 100%;
+  max-width: 1100px;
+}
+
+a {
+  text-decoration: none;
 }
 
 nav ul {
   display: flex;
+  align-items: center
 }
 
 nav ul li {
   margin: 10px;
   list-style-type: none;
+  text-decoration-color: none;
 }
 
 .second-nav {
@@ -21,14 +41,79 @@ nav ul li {
   background-color: blue;
 }
 
-#odd-li {
-  border: 1px solid green;
+h1 {
+  font-size: 45px;
 }
 
-.special-li {
-  border: 1px solid blue;
+.button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  border-radius: 6px;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
 }
 
-.even-li {
+.button1 {
+  background-color: purple;
+}
+
+.button2 {
+  background-color: transparent;
+  color: black;
+  border: 2px solid grey;
+}
+
+#splash-main {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+}
+
+.p1 {
+  font-size: 18px;
+  line-height: 1.7;
+}
+
+.p2 {
+  font-size: 16px;
+  line-height: 1.7;
+}
+
+.link-container {
+  display: flex;
+}
+
+.img {
+  padding: 15px;
+  height: auto;
+  width: auto;
+}
+
+.main-content {
   border: 1px solid red;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.upper-logo {
+  height: 40px;
+  width: 40px;
+}
+
+.installation {
+  border: 1px solid greenyellow;
+  display: flex;
+}
+
+
+
+.box {
+  border: 1px solid pink;
+  width: 500px; 
 }

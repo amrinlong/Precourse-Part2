@@ -1,106 +1,85 @@
 <html>
-<head>
-  <meta charset="UTF-8">
-  <title>Bootstrap</title>
-  <link rel="stylesheet" type="text/css" href="style.css">
-</head>
+  <head>
+    <meta charset="UTF-8">
+    <title>Bootstrap</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+    <nav>
+      <ul class='nav-bar'>
+        <li>
+          <a href=""><img src="https://getbootstrap.com/docs/5.0/assets/brand/bootstrap-social-logo.png" class='upper-logo'></a>
+        </li>
+        <li>
+          <a href="https://getbootstrap.com/">HOME</a>
+        </li>
+        <li>
+          <a href="">Docs</a>
+        </li>
+        <li>
+          <a href="">Examples</a>
+        </li>
+        <li>
+          <a href="">Icons</a>
+        </li>
+        <li>
+          <a href="">Themes</a>
+        </li>
+        <li>
+          <a href="">Blog</a>
+        </li>
+      </ul>
+    </nav>
 
-<body>
-	<nav class='first-nav'>
-    <ul>
-      <li id='odd-li'>
-        <a href="https://getbootstrap.com/">LOGO</a>
-      </li>
-      <li class='even-li'>
-        <a href="getbootstrap.com">Docs</a>
-      </li>
-      <li id='odd-li'>
-        <a href="getbootstrap.com">Examples</a>
-      </li>
-      <li class='even-li special-li'>
-        <a href="getbootstrap.com">Icons</a>
-      </li>
-      <li>
-        <a href="getbootstrap.com">Themes</a>
-      </li>
-      <li>
-        <a href="getbootstrap.com">Blog</a>
-      </li>
-    </ul>
-  </nav>
-  <nav class='even-li'>
 
-  </nav>
+    <div class='main-content'>
+      <section id="splash-main">
+        <h1>Build fast, responsive sites with Bootstrap</h1>
+        <p class="p1">Quickly design and customize responsive mobile-first sites with Bootstrap, the world’s most popular front-end open source toolkit, featuring Sass variables and mixins, responsive grid system, extensive prebuilt components, and powerful JavaScript plugins.</p>
+        <div>
+          <a href="https://getbootstrap.com/docs/5.0/getting-started/introduction/" class='button button1'>Get Started</a>
+          <a href="https://getbootstrap.com/docs/5.0/getting-started/download/" class='button button2'>Download</a>
+        </div>
+        <div class='link-container'>
+          <p>
+          Currently v5.0.0-beta2 ·
+          <a href="https://getbootstrap.com/docs/4.6/getting-started/introduction/">v4.6.x docs</a> · 
+          <a href="https://getbootstrap.com/docs/versions/">All releases</a>
+        </p>
+        </div>
+      </section>
 
-  <section id="splash-main">
-    <img src="img.src">
-    <h1>Build fast, responsive sites with Bootstrap</h1>
-    <p>Quickly design and customize responsive mobile-first sites with Bootstrap, the world’s most popular front-end open source toolkit, featuring Sass variables and mixins, responsive grid system, extensive prebuilt components, and powerful JavaScript plugins.</p>
-    <ul>
-      <li>
-        <a href="getbootstrap.com">v4.6.x docs · </a>
-        <a href="getbootstrap.com">All releases</a>
-      </li>
-      <li>
-        Currently v5.0.0-beta2
-        <a href="getbootstrap.com">Docs</a>
-        <a href="getbootstrap.com">Examples</a>
-      </li>
-    </ul>
-    <div>
-      <img src="splash.png">
+      <div>
+        
+      </div>
+
+      <div>
+        <section id='install-main'>
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSm_T45nJfT08RqDOmCNcZmS39h__SLrc72tw&usqp=CAU" width="50px" height="50px">
+          <div>
+            <h2>Installation</h2>
+            <p class="p1">Install Bootstrap's source Sass and JavaScript files via npm, Composer, or Meteor.</p>
+            <p class="p2">Package managed installs don't include documentation or our full build scripts. You can also<a href="https://github.com/twbs/bootstrap-npm-starter"> use our npm template repo</a> to quickly generate a Bootstrap project via npm.</p>
+          </div>
+      </div>
     </div>
-  </section>
 
-  <section id="installation">
-    <img src="img.src">
-    <h1>Installation</h1>
-    <p>Install Bootstrap’s source Sass and JavaScript files via npm, Composer, or Meteor.</p>
-    <p>Installation docs</p>
-    <aside>
-      <a href="getbootstrap.com">$ NPM INSTALL BOOTSTRAP@NEXT</a>
-      <a href="getbootstrap.com">$ NPM INSTALL BOOTSTRAP@NEXT</a>
-    </aside>
-  </section>
+    
+    <div class='installation'>
+      <section id='install-main'>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSm_T45nJfT08RqDOmCNcZmS39h__SLrc72tw&usqp=CAU" width="50px" height="50px">
+        <div>
+          <h2>Installation</h2>
+          <p class="p1">Install Bootstrap's source Sass and JavaScript files via npm, Composer, or Meteor.</p>
+          <p class="p2">Package managed installs don't include documentation or our full build scripts. You can also<a href="https://github.com/twbs/bootstrap-npm-starter"> use our npm template repo</a> to quickly generate a Bootstrap project via npm.</p>
+        </div>
+      </section>
 
-  <section id="js-delivr">
-    <img src="img.src">
-    <h1>jsDelivr</h1>
-    <h3>See it in action with our simple <a href="link">starter template</a>, or <a href="link">browse the examples</a> to jumpstart your next project. You can also choose to include Popper and our JS <a href="link">separately</a>.</h3>
-    <aside>
-      <a href="getbootstrap.com">Get Bootstrap Icons</a>
-    </aside>
-  </section>
+        <div class='box'>
+          $ npm install
+        </div>
 
-  <section id="bootstrap-icons">
-    <img src="img.src">
-    <h1>Bootstrap Icons</h1>
-    <h2>For the first time ever, Bootstrap has its own open source SVG icon library, designed to work best with our components and documentation.</h2>
-    <h3>Bootstrap Icons are designed to work best with Bootstrap components, but they’ll work in any project. They’re SVGs, so they scale quickly and easily, can be implemented in several ways, and can be styled with CSS.</h3>
-    <aside>
-      <a href="getbootstrap.com">Get Bootstrap Icons</a>
-    </aside>
-  </section>
-
-  <section id="official-themes">
-    <img src="img.src">
-    <h1>Official Themes</h1>
-    <h3>Take Bootstrap to the next level with premium themes from the <a href="link.url">official Bootstrap Themes marketplace</a>.</h3>
-    <p>Themes are built on Bootstrap as their own extended frameworks, rich with new components and plugins, documentation, and powerful build tools.</p>
-    <aside>
-      <a href="getbootstrap.com">Browse themes</a>
-    </aside>
-  </section>
-
-  <footer id="footer">
-  <li>
-    <a href="getbootstrap.com">GitHub</a>&nbsp;
-    <a href="getbootstrap.com">Twitter</a>&nbsp;
-    <a href="getbootstrap.com">Examples</a>&nbsp;
-    <a href="getbootstrap.com">About</a>&nbsp;
-  </li>
-
-  </footer>
-
-</body>
+    </div>
+  
+  </body>
 </html>
